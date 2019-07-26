@@ -7,19 +7,76 @@ header {
   width: 100%
 }
 
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
+html, body{
+  height: 100%;
+  font-weight: 800;
+}
+
+
+svg {
+    font: 6.0em 'Montserrat';
+    width: 300px;
+    height: 90px;
+    float: left;
+    padding-bottom: 28px;
+    align-items: center;\
+    padding-right: 8px;
+}
+
+.text-copy {
+    fill: none;
+    stroke: white;
+    stroke-dasharray: 6% 29%;
+    stroke-width: 4px;
+    stroke-dashoffset: 0%;
+    animation: stroke-offset 5.5s infinite linear;
+}
+
+.text-copy:nth-child(1){
+  stroke: green;
+  animation-delay: -1;
+}
+
+.text-copy:nth-child(2){
+  stroke: white;
+  animation-delay: -2s;
+}
+
+.text-copy:nth-child(3){
+  stroke: white;
+  animation-delay: -3s;
+}
+
+.text-copy:nth-child(4){
+  stroke: white;
+  animation-delay: -4s;
+}
+
+.text-copy:nth-child(5){
+  stroke: white;
+  animation-delay: -5s;
+}
+
+@keyframes stroke-offset{
+  100% {stroke-dashoffset: -35%;}
+}
+
+p {
+  font-size: 17px;
+}
+
 header::after {
   clear: both;
   content: '';
   display: table;
 }
 
-#corner {
-  float: left;
-}
 
 #header-img {
-  width: 580px;
-  height: 540px;
+  width: 340px;
+  height: 300px;
   float: left;
 }
 
@@ -45,22 +102,21 @@ a:visited {
 #history {
   background-color: #444;
   color: white;
-  padding: 38em;
+  padding: 420px;
   background-image: url(https://media.giphy.com/media/eN4O2EqeW1lFqRg6dS/source.gif);
-  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: contain;
   background-blend-mode: multiply;
-  background-attachment: local;
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
-  max-height: 375px;
-  max-width: 660px;
 }
 
 #heart {
   font-family: 'Roboto', sans-serif;
   font-size: 35px;
+  padding: 20px;
 }
 
 main {
