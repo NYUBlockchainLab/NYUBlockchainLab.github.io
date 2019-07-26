@@ -80,6 +80,13 @@ header::after {
   float: left;
 }
 
+#nav-link {
+  font-size: 35px;
+  font-family: Roboto, sans-serif;
+  text-decoration: line-through;
+  background-color: white;
+}
+
 nav ul{
   float: right;
   margin-right: 2em;
@@ -88,6 +95,8 @@ nav li{
   display: inline;
   padding: 1em;
   display: inline-block;
+  font-size: 23.3px;
+  padding-bottom: 40px;
 }
 
 a {
@@ -99,10 +108,10 @@ a:visited {
   color: inherit;
 }
 
-#history {
+#introduction {
   background-color: #444;
   color: white;
-  padding: 420px;
+  padding: 370px;
   background-image: url(https://media.giphy.com/media/eN4O2EqeW1lFqRg6dS/source.gif);
   background-repeat: no-repeat;
   background-size: contain;
@@ -130,7 +139,7 @@ h2 {
   text-align: center;
 }
 
-#introduction {
+#history {
   text-align: center;
   padding: 3.5em;
 }
