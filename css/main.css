@@ -1,6 +1,6 @@
 header {
   position: fixed;
-  background-color: black;
+  background-color: purple;
   color: white;
   font-family: 'Exo 2', sans-serif;
   padding: 1em;
@@ -13,11 +13,14 @@ header::after {
   display: table;
 }
 
-#header-img {
-  width: 200px;
-  height: 170px;
+#corner {
   float: left;
-  padding-top: 1.7em;
+}
+
+#header-img {
+  width: 580px;
+  height: 540px;
+  float: left;
 }
 
 nav ul{
@@ -42,14 +45,22 @@ a:visited {
 #history {
   background-color: #444;
   color: white;
-  padding: 32em;
+  padding: 38em;
   background-image: url(https://media.giphy.com/media/eN4O2EqeW1lFqRg6dS/source.gif);
   background-size: cover;
   background-blend-mode: multiply;
+  background-attachment: local;
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
+  max-height: 375px;
+  max-width: 660px;
+}
+
+#heart {
+  font-family: 'Roboto', sans-serif;
+  font-size: 35px;
 }
 
 main {
@@ -113,7 +124,7 @@ html, body {
 
 
 footer {
-  background-color: #171faa;
+  background-color: violet;
   padding: 2em;
   color: white;
 }
