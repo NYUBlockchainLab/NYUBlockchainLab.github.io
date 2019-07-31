@@ -5,11 +5,22 @@
   --main-gray: #303841;
 }
 
+{
+  margin: 0;
+  padding: 0;
+}
+
 /* box-sizing and font sizing */
 *,
 *::before,
 *::after {
   box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 90.5%;
+  scroll-behavior: smooth;
 }
 
 
@@ -20,13 +31,15 @@ header {
   font-family: 'Exo 2', sans-serif;
   padding: 1em;
   width: 100%
+  background-size: cover;
 }
 
-@import url(https://fonts.googleapis.com/css?family=Montserrat);
-
-html, body{
-  height: 100%;
-  font-weight: 800;
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.4;
+  color: black;
 }
 
 
@@ -41,40 +54,40 @@ svg {
 
 #s.text {
   float: left;
+  position: absolute;
 }
 
 .text-copy {
-    fill: none;
-    stroke: white;
+    fill: white;
+    stroke: orange;
     stroke-dasharray: 6% 29%;
-    stroke-width: 6px;
+    stroke-width: 4.0px;
     stroke-dashoffset: 0%;
     animation: stroke-offset 5.5s infinite linear;
 }
 
 .text-copy:nth-child(1){
-  stroke: green;
+  stroke: black;
+  animation-fill-mode: forwards;
   animation-delay: -1;
 }
 
 .text-copy:nth-child(2){
-  stroke: white;
+  stroke: black;
+  animation-fill-mode: forwards;
   animation-delay: -2s;
 }
 
 .text-copy:nth-child(3){
-  stroke: white;
+  stroke: black;
+  animation-fill-mode: forwards;
   animation-delay: -3s;
 }
 
 .text-copy:nth-child(4){
-  stroke: white;
+  stroke: black;
+  animation-fill-mode: forwards;
   animation-delay: -4s;
-}
-
-.text-copy:nth-child(5){
-  stroke: white;
-  animation-delay: -5s;
 }
 
 @keyframes stroke-offset{
@@ -95,6 +108,7 @@ img {
   display: block;
   width: 100%;
   image-orientation: from-image;
+  size: from-image;
 }
 
 ul {
@@ -113,7 +127,7 @@ ul {
   position: fixed;
   top: 0;
   left: 0;
-  height: 135px;
+  height: 125px;
   width: 100%;
   background: purple;
   box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
@@ -123,6 +137,7 @@ ul {
 #nav-list {
   display: flex;
   margin-right: 2rem;
+  margin-top: 1.4rem;
 }
 
 @media (max-width: 28.75em) {
@@ -146,35 +161,37 @@ ul {
 }
 
 #introduction {
-  background-color: #444;
-  color: white;
-  padding: 471.8px;
-  background-image: url(https://media.giphy.com/media/eN4O2EqeW1lFqRg6dS/source.gif);
-  background-size: 100%;
-  background-position: 50% 50%;
-  background-repeat: no-repeat;
-  background-size: contain;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-color: white;
   text-align: center;
+}
+
+#introduction > p {
+  font-size: 3rem;
+  font-weight: 200;
+  font-style: italic;
+  color: black;
 }
 
 #heart {
-  font-family: 'Roboto', sans-serif;
-  font-size: 35px;
-  padding: 20px;
-}
-
-main {
-  font-family: 'Exo 2', sans-serif;
+  font-size: 3rem;
+  padding-top: 100px;
+  font-weight: 200;
+  font-style: italic;
+  color: black;
+  text-align: center;
 }
 
 h1 {
-  text-align: center;
+  font-size: 4rem;
 }
 h2 {
-  text-align: center;
+  font-size: 2.2rem;
 }
 a {
   text-decoration: none;
@@ -186,11 +203,6 @@ a {
   text-align: center;
   padding: 3.5em;
 }
-
-#video {
-  text-align: center;
-  margin: 0 auto;
-  }
 
 #lab {
   background-color: #E0E0E0;
@@ -225,12 +237,6 @@ input:hover {
 
 
 
-html, body {
-  margin: 0;
-  font-family: 'Exo 2', sans-serif;
-}
-
-
 footer {
   background-color: violet;
   padding: 2em;
@@ -261,16 +267,18 @@ footer li {
 
 .projects-section {
   text-align: center;
-  padding: 10rem 2rem;
-  background-image: url(https://scontent-lax3-2.xx.fbcdn.net/v/t1.0-9/51633388_335936363690864_9119190505509355520_o.jpg?_nc_cat=110&_nc_oc=AQkoCAbhbKrjgwHGdTqtBJWftR2k9_q7Yi5pQJOb1-66FXiSH4DWiAVT-H6gANryYao&_nc_ht=scontent-lax3-2.xx&oh=b715728db8e92267f90371345a287317&oe=5DB03B5C);
-  background-position: 50% 50%;
-  background-repeat: repeat;
+  padding: 10rem 4rem;
+  background-color: var(--main-blue);
+  background-size: cover;
+  width: 100%;
 }
 
 .projects-section-header {
-  max-width: 640px;
+  max-width: 700px;
   margin: 0 auto 6rem auto;
   border-bottom: 0.2rem solid var(--main-white);
+  color: black;
+  display: inline-block;
 }
 
 @media (max-width: 28.75em) {
@@ -282,7 +290,7 @@ footer li {
 /* "Automagic" image grid using no media queries */
 .projects-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
   grid-gap: 4rem;
   width: 100%;
   max-width: 1280px;
@@ -301,20 +309,18 @@ footer li {
 }
 
 .project {
-  background: var(--main-gray);
+  background: #ff952b;
   box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
   border-radius: 2px;
-  border-color: black;
 }
 
 .code {
-  color: var(--main-gray);
+  color: #ff952b;
   transition: color 0.3s ease-out;
-  font-size: 30px;
 }
 
 .project:hover .code {
-  color: #ff7f50;
+  color: black;
 }
 
 .project-image {
@@ -326,5 +332,92 @@ footer li {
 
 .project-title {
   font-size: 2rem;
-  padding: 2rem 0.5rem;
+  padding: 1rem 0.5rem;
 }
+
+
+
+
+.btn {
+  display: inline-block;
+  padding: 1rem 2rem;
+  border-radius: 2px;
+}
+
+.btn-show-all {
+  font-size: 2rem;
+  background: var(--main-gray);
+  transition: background 0.3s ease-out;
+}
+
+.btn-show-all:hover {
+  background: var(--main-red);
+}
+
+.btn-show-all:hover > i {
+  transform: translateX(2px);
+}
+
+.btn-show-all > i {
+  margin-left: 10px;
+  transform: translateX(0);
+  transition: transform 0.3s ease-out;
+}
+
+
+
+
+
+.contact-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  height: 80vh;
+  padding: 0 2rem;
+  background: var(--main-gray);
+}
+
+.contact-section-header > h2 {
+  font-size: 6rem;
+}
+
+@media (max-width: 28.75em) {
+  .contact-section-header > h2 {
+    font-size: 4rem;
+  }
+}
+
+.contact-section-header > p {
+  font-style: italic;
+}
+
+.contact-links {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  max-width: 980px;
+  margin-top: 4rem;
+  flex-wrap: wrap;
+}
+
+.contact-details {
+  font-size: 2.4rem;
+  text-shadow: 2px 2px 1px #1f1f1f;
+  transition: transform 0.3s ease-out;
+}
+
+.contact-details:hover {
+  transform: translateY(8px);
+}
+
+
+
+
+
+
+
+
+
