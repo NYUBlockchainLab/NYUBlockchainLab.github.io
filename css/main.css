@@ -1,11 +1,13 @@
+
+/* unique color variables */
 :root {
   --main-white: #f0f0f0;
-  --main-purple: purple;
   --main-blue: #45567d;
   --main-gray: #303841;
 }
 
-{
+/* Base reset */
+* {
   margin: 0;
   padding: 0;
 }
@@ -21,8 +23,16 @@ html {
   box-sizing: border-box;
   font-size: 90.5%;
   scroll-behavior: smooth;
+  height: 100%;
 }
 
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.4;
+  color: white;
+}
 
 header {
   position: fixed;
@@ -34,15 +44,15 @@ header {
   background-size: cover;
 }
 
-body {
-  font-family: 'Poppins', sans-serif;
-  font-size: 1.8rem;
-  font-weight: 400;
-  line-height: 1.4;
-  color: white;
+header::after {
+  clear: both;
+  content: '';
+  display: table;
 }
 
 
+/* 'Blockchain Lab @ NYU' animated top-right word */
+/* ANIMATION */
 svg {
     display: inline-block;
     font-size: 50px;
@@ -94,14 +104,10 @@ svg {
   100% {stroke-dashoffset: -35%;}
 }
 
+/* END OF ANIMATION SEQUENCE */
+
 p {
   font-size: 17px;
-}
-
-header::after {
-  clear: both;
-  content: '';
-  display: table;
 }
 
 img {
@@ -113,12 +119,6 @@ img {
 
 ul {
   list-style: none;
-}
-
-#header-img {
-  width: 380px;
-  height: 320px;
-  float: left;
 }
 
 .nav {
@@ -137,7 +137,7 @@ ul {
 #nav-list {
   display: flex;
   margin-right: 2rem;
-  margin-top: 1.4rem;
+  margin-top: 1.33rem;
 }
 
 @media (max-width: 28.75em) {
@@ -157,7 +157,7 @@ ul {
 }
 
 #nav-list a:hover {
-  background: var(--main-blue);
+  background: #f7880f;
 }
 
 #introduction {
@@ -169,12 +169,14 @@ ul {
   height: 100vh;
   background-color: white;
   text-align: center;
+  padding-top: 65px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 #introduction > p {
   font-size: 3rem;
   font-weight: 200;
-  font-style: italic;
   color: black;
 }
 
@@ -239,7 +241,7 @@ input:hover {
 
 footer {
   background-color: violet;
-  padding: 2em;
+  padding: .5em;
   color: white;
 }
 
@@ -251,11 +253,12 @@ footer ul {
 footer li {
   display: inline;
   padding: 2em;
+  margin-left: 800px;
 }
 
 @media (max-width: 550px ){
   h1 {
-    font-size: 1.25em;
+    font-size: 1.0em;
   }
 }
 
