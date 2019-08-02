@@ -243,6 +243,7 @@ footer {
   background-color: violet;
   padding: .5em;
   color: white;
+  font-size: 20px;
 }
 
 footer ul {
@@ -253,7 +254,7 @@ footer ul {
 footer li {
   display: inline;
   padding: 2em;
-  margin-left: 800px;
+  margin-left: 900px;
 }
 
 @media (max-width: 550px ){
