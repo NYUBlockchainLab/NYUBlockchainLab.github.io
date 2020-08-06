@@ -1,4 +1,1 @@
-https://nyublockchainlab.github.io/
-
-
-//this is a test!
+Follow us on Twitter: https://twitter.com/BlockchainLabNY
