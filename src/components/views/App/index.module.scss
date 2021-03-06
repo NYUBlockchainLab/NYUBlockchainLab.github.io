@@ -1,0 +1,26 @@
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/variables";
+@import "~bootstrap/scss/mixins";
+
+.container {
+  display: flex;
+  height: 100vh;
+  background-color: lighten($black, 0.9);
+  overflow: hidden;
+  position: relative;
+  @include make-container();
+
+  &::after {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("/assets/media/background.svg");
+    background-repeat: no-repeat;
+    background-position: right center;
+    opacity: 0.5;
+    z-index: 0;
+  }
+}

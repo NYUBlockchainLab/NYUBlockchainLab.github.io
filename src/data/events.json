@@ -1,0 +1,92 @@
+[
+  {
+    "image": "/assets/media/events/ian.jpg",
+    "title": "",
+    "speaker": {
+      "name": "Ian Miers",
+      "title": "Cofounder of Zcash"
+    },
+    "link": "https://z.cash/es/",
+    "date": ""
+  },
+  {
+    "image": "/assets/media/events/matt_c.jpg",
+    "title": "",
+    "speaker": {
+      "name": "Matt Corallo",
+      "title": "Top Bitcoin contributor"
+    },
+    "link": "https://github.com/TheBlueMatt?fbclid=IwAR2gEwzSIoKdWbJTvMAxHnDbzHqGAIMTxydMqdEnolIoNuP3sOi64krGoqI",
+    "date": ""
+  },
+  {
+    "image": "/assets/media/events/feng_han.jpg",
+    "title": "",
+    "speaker": {
+      "name": "Feng Han",
+      "title": "Founder of Elastos"
+    },
+    "link": "https://www.elastos.org/",
+    "date": ""
+  },
+  {
+    "image": "/assets/media/events/paul_madsen.jpg",
+    "title": "",
+    "speaker": {
+      "name": "Paul Madsen",
+      "title": "Chief Architect at Hedera Hashgraph"
+    },
+    "link": "https://www.hedera.com/",
+    "date": ""
+  },
+  {
+    "image": "/assets/media/events/coinbase_panel.jpg",
+    "title": "Coinbase Engineering Panel",
+    "speaker": {
+      "name": "",
+      "title": ""
+    },
+    "link": "https://www.coinbase.com/",
+    "date": ""
+  },
+  {
+    "image": "/assets/media/events/panel.jpg",
+    "title": "Expert Panel Discussions",
+    "speaker": {
+      "name": "",
+      "title": ""
+    },
+    "link": "https://www.facebook.com/BlockchainLabNYU/posts/367728323845001",
+    "date": ""
+  },
+  {
+    "image": "",
+    "title": "",
+    "speaker": {
+      "name": "Phillip Gradwell",
+      "title": "Analyst at Chainalysis"
+    },
+    "link": "https://www.chainalysis.com/",
+    "date": ""
+  },
+  {
+    "image": "",
+    "title": "Expert Panel Discussions",
+    "speaker": {
+      "name": "John Burnham",
+      "title": "CTO of camlCase"
+    },
+    "link": "https://camlcase.io/",
+    "date": ""
+  },
+  {
+    "image": "",
+    "title": "Expert Panel Discussions",
+    "speaker": {
+      "name": "Matt Lucas",
+      "title": "Analyst at Collaborative Fund VC"
+    },
+    "link": "https://www.collaborativefund.com/",
+    "date": ""
+  }
+]
