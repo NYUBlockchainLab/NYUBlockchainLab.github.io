@@ -1,0 +1,12 @@
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/variables";
+@import "~bootstrap/scss/mixins";
+
+.container {
+  @include make-row();
+  @include make-col-ready();
+
+  h2 {
+    @include make-col(12);
+  }
+}

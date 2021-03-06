@@ -1,0 +1,23 @@
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/variables";
+@import "~bootstrap/scss/mixins";
+
+.container {
+  justify-content: space-between;
+  flex-direction: column;
+  display: flex;
+  @include make-col-ready();
+  @include make-col-auto();
+
+  ul {
+    @include list-unstyled();
+
+    li {
+      padding: 1em 0;
+    }
+  }
+
+  menu {
+    padding: 0;
+  }
+}

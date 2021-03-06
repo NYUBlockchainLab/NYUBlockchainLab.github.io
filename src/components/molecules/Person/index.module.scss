@@ -1,0 +1,27 @@
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/variables";
+@import "~bootstrap/scss/mixins";
+
+.container {
+  position: relative;
+  @include make-col(3);
+
+  figure {
+    position: relative;
+    padding-bottom: 66%;
+
+    img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  h4,
+  small {
+    display: block;
+  }
+}

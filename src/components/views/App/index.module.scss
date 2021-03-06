@@ -1,0 +1,11 @@
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/variables";
+@import "~bootstrap/scss/mixins";
+
+.container {
+  display: flex;
+  height: 100vh;
+  background-color: lighten($black, 0.9);
+  overflow: hidden;
+  @include make-container();
+}

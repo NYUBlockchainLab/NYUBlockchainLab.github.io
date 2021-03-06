@@ -1,0 +1,37 @@
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/variables";
+@import "~bootstrap/scss/mixins";
+
+.container {
+  flex-direction: column;
+  color: white;
+  display: flex;
+  height: 100vh;
+  overflow: auto;
+  @include make-col-ready();
+  flex-wrap: nowrap;
+
+  section {
+    margin: 50vh 0;
+    min-height: 100vh;
+
+    &:first-of-type {
+      margin-top: 0;
+    }
+
+    &:last-of-type {
+      margin-bottom: 0;
+    }
+  }
+}
+
+.intro {
+  flex: 1 1 100%;
+  padding: 4em 0;
+  @include make-row();
+  @include make-col-ready();
+
+  p {
+    columns: 2;
+  }
+}

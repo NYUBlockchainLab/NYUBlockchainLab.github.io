@@ -1,0 +1,57 @@
+[
+  {
+    "name": "Frank Cheung",
+    "role": "Leadership",
+    "headshot": "/assets/images/frank.jpg",
+    "bio": "",
+    "socials": [
+      {
+        "link": "https://linkedin.com"
+      }
+    ]
+  },
+  {
+    "name": "Aaron Salley",
+    "role": "Leadership",
+    "headshot": "",
+    "bio": "",
+    "socials": [
+      {
+        "link": "https://linkedin.com"
+      }
+    ]
+  },
+  {
+    "name": "Michael Salmassi",
+    "role": "Leadership",
+    "headshot": "",
+    "bio": "",
+    "socials": [
+      {
+        "link": "https://linkedin.com"
+      }
+    ]
+  },
+  {
+    "name": "Nicholas Canella",
+    "role": "Leadership",
+    "headshot": "",
+    "bio": "",
+    "socials": [
+      {
+        "link": "https://linkedin.com"
+      }
+    ]
+  },
+  {
+    "name": "Joseph Bonneau",
+    "role": "Faculty Advisor",
+    "headshot": "/assets/images/joe.jpg",
+    "bio": "",
+    "socials": [
+      {
+        "link": "https://linkedin.com"
+      }
+    ]
+  }
+]
