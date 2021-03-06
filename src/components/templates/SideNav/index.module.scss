@@ -4,20 +4,72 @@
 
 .container {
   justify-content: space-between;
+  position: absolute;
   flex-direction: column;
   display: flex;
-  @include make-col-ready();
-  @include make-col-auto();
+  z-index: 10;
+  width: 100%;
+  background-color: lighten($black, 0.9);
+
+  @include media-breakpoint-up(md) {
+    position: relative;
+    width: auto;
+    background-color: transparent;
+    @include make-col-ready();
+    @include make-col-auto();
+  }
+
+  h1 {
+    color: white;
+    padding-top: 2em;
+  }
 
   ul {
     @include list-unstyled();
 
+    @include media-breakpoint-down(sm) {
+      display: none;
+    }
+
     li {
       padding: 1em 0;
+      color: $gray-600;
+      font-family: var(--monospace);
+
+      a {
+        color: inherit;
+        font-size: 75%;
+        transition: all 0.5s ease;
+
+        &:hover,
+        &.active {
+          color: white;
+          font-size: 125%;
+          text-decoration: underline;
+        }
+      }
     }
   }
 
   menu {
     padding: 0;
+
+    @include media-breakpoint-down(sm) {
+      display: none;
+    }
+
+    a {
+      color: inherit;
+      font-size: 1.15rem;
+      margin: 0 0.5em;
+
+      &:first-of-type {
+        margin-left: 0;
+      }
+
+      &:last-of-type {
+        margin-right: 0;
+      }
+    }
   }
 }

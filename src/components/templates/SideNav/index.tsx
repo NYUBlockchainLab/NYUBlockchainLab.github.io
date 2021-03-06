@@ -1,6 +1,6 @@
 import React from "react";
 import { connect } from "react-redux";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import styles from "./index.module.scss";
 
 const mapStateToProps = (state: any, ownProps: any) => {
@@ -12,7 +12,6 @@ const mapStateToProps = (state: any, ownProps: any) => {
   };
 };
 
-// TODO: Animate
 const SideNav = (props: any) => {
   const SiteNavItems = () => {
     const { siteNav } = props;
@@ -21,7 +20,9 @@ const SideNav = (props: any) => {
       return siteNav.map((item: any, i: number) => {
         return (
           <li key={i}>
-            <Link to={item.href}>{item.title}</Link>
+            <NavLink to={item.href} activeClassName={styles["active"]} exact>
+              {item.title}
+            </NavLink>
           </li>
         );
       });
@@ -34,13 +35,9 @@ const SideNav = (props: any) => {
     const { socialLinks } = props;
 
     if (socialLinks) {
-      return socialLinks.map((link: any, i: number) => {
-        // TODO: extract service from URL
-        return (
-          <i className={link} key={i}>
-            <a href={link}></a>
-          </i>
-        );
+      return socialLinks.map((link: string, i: number) => {
+        const service = link.split(/^(http|https)?:\/\/(www.)?(\w+)/)[3];
+        return <a className={`fab fa-${service}`} href={link} key={i}></a>;
       });
     }
 
@@ -49,7 +46,7 @@ const SideNav = (props: any) => {
 
   return (
     <nav className={styles["container"]}>
-      <span></span>
+      <h1>Blockchain Lab @ NYU</h1>
       <ul>
         <SiteNavItems />
       </ul>

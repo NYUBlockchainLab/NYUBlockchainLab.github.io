@@ -10,11 +10,11 @@ const initialState: RootStateOrAny = {
     siteNav: [
       {
         title: "Introduction",
-        href: "/intro",
+        href: "/",
       },
       {
-        title: "History",
-        href: "/history",
+        title: "Events",
+        href: "/events",
       },
       {
         title: "Team",

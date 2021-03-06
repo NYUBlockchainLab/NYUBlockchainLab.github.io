@@ -3,6 +3,11 @@
 @import "~bootstrap/scss/mixins";
 @import "~bootstrap/scss/reboot";
 
+:root {
+  --monospace: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
 html {
   overflow: hidden;
 }
@@ -14,8 +19,15 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  color: $gray-700;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;

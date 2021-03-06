@@ -5,7 +5,7 @@ import configureStore from "./store";
 import { Provider } from "react-redux";
 import App from "./components/views/App";
 import { Store } from "redux";
-import { BrowserRouter as Router } from "react-router-dom";
+import { BrowserRouter as Router, Route } from "react-router-dom";
 import "./assets/styles/index.scss";
 
 const store: Store = configureStore();
@@ -13,7 +13,9 @@ const store: Store = configureStore();
 ReactDOM.render(
   <Provider store={store}>
     <Router>
-      <App />
+      <Route path={["/:id", "/"]}>
+        <App />
+      </Route>
     </Router>
   </Provider>,
   document.getElementById("root")

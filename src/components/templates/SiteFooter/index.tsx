@@ -1,18 +1,20 @@
 import React from "react";
+import styles from "./index.module.scss";
 
 const SiteFooter = () => {
   return (
-    // TODO: Style the footer
-    <footer>
-      <h2>Stay in the know!</h2>
-      <p>Email us at blockchainlabnyu@gmail.com.</p>
+    <footer id='contact' className={styles["container"]}>
       {/* TODO: Do something with the form */}
       <form action=''>
+        <h2>
+          Stay in the know!
+          <small>Email us at blockchainlabnyu@gmail.com.</small>
+        </h2>
         <p>
           Like our Facebook page and join our mailing list to be up to date with
           events, meetings and workshops!
         </p>
-        <div>
+        {/* <div>
           <label>Email address</label>
           <input
             type='email'
@@ -20,7 +22,7 @@ const SiteFooter = () => {
             placeholder='Enter your email address'
           ></input>
           <button type='submit'>Get on the List</button>
-        </div>
+        </div> */}
       </form>
       <small>© Blockchain Lab @ NYU {new Date().getFullYear()}</small>
     </footer>

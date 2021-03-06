@@ -15,9 +15,7 @@ const Person = (props: any) => {
 
   return (
     <article className={styles["container"]}>
-      <figure>
-        <img src={headshot} alt={name} />
-      </figure>
+      <figure>{headshot ? <img src={headshot} alt={name} /> : null}</figure>
       <h4>
         {name}
         <small>{role}</small>

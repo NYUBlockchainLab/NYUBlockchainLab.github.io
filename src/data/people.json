@@ -1,8 +1,8 @@
 [
   {
     "name": "Frank Cheung",
-    "role": "Leadership",
-    "headshot": "/assets/images/frank.jpg",
+    "role": "Student Advisor",
+    "headshot": "/assets/media/people/frank.jpg",
     "bio": "",
     "socials": [
       {
@@ -12,8 +12,8 @@
   },
   {
     "name": "Aaron Salley",
-    "role": "Leadership",
-    "headshot": "",
+    "role": "Student Advisor",
+    "headshot": "/assets/media/people/aaron.jpg",
     "bio": "",
     "socials": [
       {
@@ -23,7 +23,7 @@
   },
   {
     "name": "Michael Salmassi",
-    "role": "Leadership",
+    "role": "Student Advisor",
     "headshot": "",
     "bio": "",
     "socials": [
@@ -34,7 +34,7 @@
   },
   {
     "name": "Nicholas Canella",
-    "role": "Leadership",
+    "role": "Student Advisor",
     "headshot": "",
     "bio": "",
     "socials": [
@@ -44,9 +44,20 @@
     ]
   },
   {
+    "name": "Alvaro Luken",
+    "role": "Founder, Alumni Advisor",
+    "headshot": "/assets/media/people/al.jpg",
+    "bio": "",
+    "socials": [
+      {
+        "link": "https://alvaroluken.com/"
+      }
+    ]
+  },
+  {
     "name": "Joseph Bonneau",
     "role": "Faculty Advisor",
-    "headshot": "/assets/images/joe.jpg",
+    "headshot": "/assets/media/people/joe.jpg",
     "bio": "",
     "socials": [
       {
