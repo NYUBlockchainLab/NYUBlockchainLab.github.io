@@ -6,7 +6,7 @@
     "bio": "",
     "socials": [
       {
-        "link": "https://linkedin.com"
+        "link": "https://linkedin.com/in/frank-cheung-data/"
       }
     ]
   },
@@ -17,7 +17,7 @@
     "bio": "",
     "socials": [
       {
-        "link": "https://linkedin.com"
+        "link": "https://linkedin.com/in/aaronsalley/"
       }
     ]
   },
@@ -28,18 +28,18 @@
     "bio": "",
     "socials": [
       {
-        "link": "https://linkedin.com"
+        "link": "https://linkedin.com/in/"
       }
     ]
   },
   {
     "name": "Nicholas Canella",
     "role": "Student Advisor",
-    "headshot": "",
+    "headshot": "/assets/media/people/nicholas.jpeg",
     "bio": "",
     "socials": [
       {
-        "link": "https://linkedin.com"
+        "link": "http://linkedin.com/in/nicholas-canella/"
       }
     ]
   },
@@ -61,7 +61,7 @@
     "bio": "",
     "socials": [
       {
-        "link": "https://linkedin.com"
+        "link": "https://linkedin.com/in/"
       }
     ]
   }
