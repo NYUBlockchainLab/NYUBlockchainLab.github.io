@@ -1,41 +1,8 @@
 [
   {
-    "name": "Frank Cheung",
-    "role": "Student Advisor",
+    "name": "Amit Kumar",
+    "role": "Founder, Student Advisor",
     "headshot": "/assets/media/people/frank.jpg",
-    "bio": "",
-    "socials": [
-      {
-        "link": "https://linkedin.com"
-      }
-    ]
-  },
-  {
-    "name": "Aaron Salley",
-    "role": "Student Advisor",
-    "headshot": "/assets/media/people/aaron.jpg",
-    "bio": "",
-    "socials": [
-      {
-        "link": "https://linkedin.com"
-      }
-    ]
-  },
-  {
-    "name": "Michael Salmassi",
-    "role": "Student Advisor",
-    "headshot": "",
-    "bio": "",
-    "socials": [
-      {
-        "link": "https://linkedin.com"
-      }
-    ]
-  },
-  {
-    "name": "Nicholas Canella",
-    "role": "Student Advisor",
-    "headshot": "",
     "bio": "",
     "socials": [
       {
@@ -58,6 +25,17 @@
     "name": "Joseph Bonneau",
     "role": "Faculty Advisor",
     "headshot": "/assets/media/people/joe.jpg",
+    "bio": "",
+    "socials": [
+      {
+        "link": "https://linkedin.com"
+      }
+    ]
+  },
+  {
+    "name": "Ayesha Kiani",
+    "role": "Faculty Advisor",
+    "headshot": "/assets/media/people/ash.jpg",
     "bio": "",
     "socials": [
       {
