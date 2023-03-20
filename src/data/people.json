@@ -2,7 +2,7 @@
   {
     "name": "Amit Kumar",
     "role": "Founder, Student Advisor",
-    "headshot": "/assets/media/people/frank.jpg",
+    "headshot": "/assets/media/people/amit.jpeg",
     "bio": "",
     "socials": [
       {
@@ -22,9 +22,20 @@
     ]
   },
   {
-    "name": "Joseph Bonneau",
+    "name": "Marrisa",
+    "role": "Alumni Advisor",
+    "headshot": "",
+    "bio": "",
+    "socials": [
+      {
+        "link": "https://alvaroluken.com/"
+      }
+    ]
+  },
+  {
+    "name": "Ayesha Kiani",
     "role": "Faculty Advisor",
-    "headshot": "/assets/media/people/joe.jpg",
+    "headshot": "/assets/media/people/ayesha.png",
     "bio": "",
     "socials": [
       {
@@ -33,9 +44,9 @@
     ]
   },
   {
-    "name": "Ayesha Kiani",
+    "name": "Joseph Bonneau",
     "role": "Faculty Advisor",
-    "headshot": "/assets/media/people/ash.jpg",
+    "headshot": "/assets/media/people/joe.jpg",
     "bio": "",
     "socials": [
       {
