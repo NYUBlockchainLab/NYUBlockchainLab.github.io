@@ -1,7 +1,7 @@
 [
   {
     "name": "Amit Kumar",
-    "role": "Founder, Student Advisor",
+    "role": "Founder",
     "headshot": "/assets/media/people/amit.jpeg",
     "bio": "",
     "socials": [
@@ -11,9 +11,9 @@
     ]
   },
   {
-    "name": "Alvaro Luken",
-    "role": "Founder, Alumni Advisor",
-    "headshot": "/assets/media/people/al.jpg",
+    "name": "Juno",
+    "role": "Operations Lead",
+    "headshot": "/assets/media/people/juno.jpg",
     "bio": "",
     "socials": [
       {
@@ -22,9 +22,20 @@
     ]
   },
   {
-    "name": "Marrisa",
-    "role": "Alumni Advisor",
-    "headshot": "",
+    "name": "Ben Liang",
+    "role": "Partnerships Lead",
+    "headshot": "/assets/media/people/ben.jpg",
+    "bio": "",
+    "socials": [
+      {
+        "link": "https://alvaroluken.com/"
+      }
+    ]
+  },
+  {
+    "name": "Alvaro Luken",
+    "role": "Founder, Alumni Advisor",
+    "headshot": "/assets/media/people/al.jpg",
     "bio": "",
     "socials": [
       {
