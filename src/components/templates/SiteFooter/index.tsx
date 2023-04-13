@@ -9,11 +9,11 @@ const SiteFooter = () => {
         <h2>
         Join our discord server! 
         </h2>
-        <p>
+        <h3>
         <a href="https://discord.gg/TaZt3AVtFu" target="_blank" rel="noopener noreferrer">
           https://discord.gg/TaZt3AVtFu
           </a>
-        </p>
+        </h3>
         {/* <div>
           <label>Discord</label>
           <input
