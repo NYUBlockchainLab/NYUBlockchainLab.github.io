@@ -8,7 +8,9 @@ const SiteFooter = () => {
       <form action=''>
         <h2>
           Stay in the know!
-          <small>https://discord.gg/TaZt3AVtFu</small>
+          <a href="https://discord.gg/TaZt3AVtFu" target="_blank" rel="noopener noreferrer">
+          https://discord.gg/TaZt3AVtFu
+          </a>
         </h2>
         <p>
           Join our discord server to be up to date with
