@@ -1,5 +1,15 @@
 [
   {
+    "image": "/assets/media/events/hyperoracle.jpg",
+    "title": "",
+    "speaker": {
+      "name": "Suning Yao",
+      "title": "Cofounder of Hyper Oracle"
+    },
+    "link": "https://www.hyperoracle.io/",
+    "date": ""
+  },
+  {
     "image": "/assets/media/events/ian.jpg",
     "title": "",
     "speaker": {
