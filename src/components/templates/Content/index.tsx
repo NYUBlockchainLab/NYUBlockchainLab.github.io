@@ -55,7 +55,7 @@ class Content extends React.Component<any, any> {
         <section id='intro' className={styles["intro"]}>
           <p>
             Student organization bringing Blockchain and Distributed Ledger Technologies to NYU. 
-            We support student developers and researcher.  
+            We support student developers and researchers.  
           </p>
         </section>
         {this.props.events.length ? (

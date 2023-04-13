@@ -7,14 +7,12 @@ const SiteFooter = () => {
       {/* TODO: Do something with the form */}
       <form action=''>
         <h2>
-          Stay in the know!
-          <a href="https://discord.gg/TaZt3AVtFu" target="_blank" rel="noopener noreferrer">
-          https://discord.gg/TaZt3AVtFu
-          </a>
+        Join our discord server! 
         </h2>
         <p>
-          Join our discord server to be up to date with
-          events, meetings and workshops!
+        <a href="https://discord.gg/TaZt3AVtFu" target="_blank" rel="noopener noreferrer">
+          https://discord.gg/TaZt3AVtFu
+          </a>
         </p>
         {/* <div>
           <label>Discord</label>
