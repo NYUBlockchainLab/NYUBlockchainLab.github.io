@@ -54,10 +54,7 @@ class Content extends React.Component<any, any> {
       <main className={styles["container"]}>
         <section id='intro' className={styles["intro"]}>
           <p>
-            Student organization in the heart of Lower Manhattan active since
-            2017. A community interested in learning about and exploring
-            blockchain technologies. Our goal is to promote student-led research
-            and innovation at the university.
+            Student organization bringing Blockchain and Distributed Ledger Technologies to NYU. We support student developers and researchers.  
           </p>
         </section>
         {this.props.events.length ? (
