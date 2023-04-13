@@ -8,14 +8,14 @@ const SiteFooter = () => {
       <form action=''>
         <h2>
           Stay in the know!
-          <small>Email us at blockchainlabnyu@gmail.com.</small>
+          <small>https://discord.gg/TaZt3AVtFu</small>
         </h2>
         <p>
-          Like our Facebook page and join our mailing list to be up to date with
+          Join our discord server to be up to date with
           events, meetings and workshops!
         </p>
         {/* <div>
-          <label>Email address</label>
+          <label>Discord</label>
           <input
             type='email'
             autoComplete='email'
